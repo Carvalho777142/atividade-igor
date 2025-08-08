@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var  peso = parseFloat(prompt("Digite seu peso (kg):"))
+        var altura = parseFloat(prompt("Digite sua altura (m):"))
+        var imc = peso / (altura * altura)
+        if (imc < 18.5) {
+            alert("Abaixo do peso")
+}
+        else if (imc < 25) {
+            alert("Peso ideal")
+} 
+        else {
+            alert("Acima do peso")
+}
+    </script>
+</body>
+</html>
